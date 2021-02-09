@@ -6,11 +6,12 @@ public class sanYuanYYF {
 		int x = 451,grade = 369;
 		
 		sign =  grade >= x ? true:false;
-		System.out.println("���ĸ߿��ܷ�: " + grade);
-		System.out.println("��һ������¼ȡ������: " + x);
+		
+		System.out.println("您的高考总分: " + grade);
+		System.out.println("第一批本科录取分数线: " + x);
 		if(sign)
-			System.out.println("�߿������ͨ��һ��¼ȡ������");
+			System.out.println("高考结果：通过一本录取分数线");
 		else
-			System.out.println("�߿������δͨ��һ��¼ȡ������");
+			System.out.println("高考结果：未通过一本录取分数线");
 	}
 }
