@@ -6,6 +6,7 @@ public class sanYuanYYF {
 		int x = 451,grade = 369;
 		
 		sign =  grade >= x ? true:false;
+		
 		System.out.println("您的高考总分: " + grade);
 		System.out.println("第一批本科录取分数线: " + x);
 		if(sign)
