@@ -10,7 +10,7 @@ public class sDate {
 		SimpleDateFormat sdf = new SimpleDateFormat(str);
 		
 		Calendar cal = Calendar.getInstance();
-		cal.set(2020, 12 - 1, 10, 10, 30, 00);  //ÔÂ·İ´Ó0¿ªÊ¼¼ÆÊı ĞèÒª-1
+		cal.set(2020, 12 - 1, 10, 10, 30, 00);  //æœˆä»½ä»0å¼€å§‹è®¡æ•° éœ€è¦-1
 		
 		Date date = cal.getTime();
 		System.out.println(sdf.format(date));
